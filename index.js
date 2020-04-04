@@ -16,8 +16,9 @@ function currentLine(line){
   let position = 1
   var newLine = ""
   if (line.length > 0){
-    while (position >= line.length){
+    while (position > line.length){
       newLine += `${position}. ${line[position-1]},`
+      position++
     }
   }
 }
