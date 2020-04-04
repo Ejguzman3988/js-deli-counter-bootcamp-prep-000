@@ -7,7 +7,7 @@ function nowServing(line){
   var name = ""
   if (line.length > 0){
     name = line[0]
-    line = line.slice(1)
+    line = line.s(1)
     return `Currently serving ${name}.`
     
   }
