@@ -25,6 +25,7 @@ function currentLine(line){
       position++
     }
     newLine += `${position}. ${line[position-1]}`
+    return newLine
   }
   else{
     return "The line is currently empty."
