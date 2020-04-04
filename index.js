@@ -18,7 +18,7 @@ function nowServing(line){
 
 function currentLine(line){
   let position = 1
-  var newLine = ""
+  var newLine = "The line is currently: "
   if (line.length > 0){
     while (position > line.length){
       newLine += `${position}. ${line[position-1]},`
