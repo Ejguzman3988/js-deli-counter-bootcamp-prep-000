@@ -8,6 +8,7 @@ function nowServing(line){
   if (line.length > 0){
     name = line[0]
     line = line.slice(1)
+    return name
     
   }
   else{
