@@ -17,7 +17,7 @@ function currentLine(line){
   var newLine = ""
   if (line.length > 0){
     while (position >= line.length){
-      newLine += `${position}. ${line[position-1]}
+      newLine += `${position}. ${line[position-1]},`
     }
   }
 }
