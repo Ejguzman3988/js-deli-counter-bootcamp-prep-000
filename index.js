@@ -20,5 +20,6 @@ function currentLine(line){
       newLine += `${position}. ${line[position-1]},`
       position++
     }
+    newLine += `${position}. ${line[position-1]}`
   }
 }
