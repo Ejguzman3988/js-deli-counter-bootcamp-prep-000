@@ -22,4 +22,7 @@ function currentLine(line){
     }
     newLine += `${position}. ${line[position-1]}`
   }
+  else{
+    return "The line is currently empty."
+  }
 }
